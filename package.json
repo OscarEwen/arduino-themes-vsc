@@ -2,7 +2,7 @@
   "name": "arduino-themes-vsc",
   "displayName": "Arduino Theme Pack for VSC",
   "description": "The dark and light themes from the Arduion IDE imported to Visual Studio Code for your enjoyment",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.79.0"
   },
