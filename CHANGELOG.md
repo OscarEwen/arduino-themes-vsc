@@ -43,3 +43,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 - Reformatted theme json files inline with visualstudo code api reference
+
+## [0.2.0] - 2025-07-08
