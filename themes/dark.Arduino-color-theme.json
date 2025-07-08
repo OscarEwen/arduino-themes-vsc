@@ -1,175 +1,167 @@
 {
-	"name": "Arduino dark",
-	"type": "dark",
-	"colors": {
-	  "list.highlightForeground": "#0ca1a6",
-	  "list.activeSelectionForeground": "#dae3e3",
-	  "list.activeSelectionBackground": "#0ca1a64d",
-	  "list.inactiveSelectionForeground": "#dae3e3",
-	  "list.inactiveSelectionBackground": "#434f54",
-	  "list.hoverBackground": "#1f272a",
-	  "list.activeSelectionIconForeground": "#0ca1a6",
-
-	  "progressBar.background": "#005c5f",
-
-	  "editor.background": "#1f272a",
-	  "editor.foreground": "#dae3e3",
-	  "editor.lineHighlightBackground": "#434f5410",
-	  "editor.selectionBackground": "#00818480",
-
-	  "editorCursor.foreground": "#dae3e3",
-
-	  "editorWhitespace.foreground": "#bfbfbf",
-
-	  "editorWidget.background": "#171e21",
-	  "editorWidget.foreground": "#dae3e3",
-
-	  "focusBorder": "#dae3e3",
-
-	  "menubar.selectionBackground": "#ffffff",
-	  "menubar.selectionForeground": "#212121",
-
-	  "menu.selectionBackground": "#dae3e3",
-	  "menu.selectionForeground": "#212121",
-
-	  "editorGroupHeader.tabsBackground": "#171e21",
-
-	  "button.background": "#0ca1a6",
-	  "button.foreground": "#101618",
-	  "button.hoverBackground": "#7fcbcd",
-
-	  "titleBar.activeBackground": "#171e21",
-	  "titleBar.activeForeground": "#dae3e3",
-
-	  "terminal.background": "#000000",
-	  "terminal.foreground": "#ffffff",
-
-	  "dropdown.border": "#7fcbcd",
-	  "dropdown.background": "#2c353a",
-	  "dropdown.foreground": "#dae3e3",
-
-	  "activityBar.background": "#171e21",
-	  "activityBar.foreground": "#dae3e3",
-	  "activityBar.inactiveForeground": "#4e5b61",
-	  "activityBar.activeBorder": "#0ca1a6",
-
-	  "statusBar.background": "#171e21",
-
-	  "sideBar.background": "#101618",
-	  "sideBar.foreground": "#dae3e3",
-
-	  "input.background": "#000000",
-
-	  "foreground": "#dae3e3",
-
-	  "settings.headerForeground": "#dae3e3",
-
-	  "tree.indentGuidesStroke": "#374146",
-
-	  "tab.unfocusedActiveForeground": "#dae3e3",
-	  "tab.inactiveBackground": "#171e21",
-
-	  "textLink.foreground": "#0ca1a6",
-	  
-	  "errorForeground": "#df7365"
-	},
-	"tokenColors": [
-	  {
-		"name": "",
-		"settings": {
-		  "foreground": "#dae3e3"
-		}
-	  },
-	  {
-		"name": "Comments",
-		"scope": "comment",
-		"settings": {
-		  "foreground": "#7f8c8d"
-		}
-	  },
-	  {
-		"name": "Keywords Attributes",
-		"scope": [
-		  "storage",
-		  "support",
-		  "string.quoted.single.c"
-		],
-		"settings": {
-		  "foreground": "#0ca1a6"
-		}
-	  },
-	  {
-		"name": "literal",
-		"scope": [
-		  "meta.function.c",
-		  "entity.name",
-		  "entity.name.function",
-		  "meta.function-call.c",
-		  "variable.other"
-		],
-		"settings": {
-		  "foreground": "#F39C12"
-		}
-	  },
-	  {
-		"name": "punctuation",
-		"scope": [
-		  "punctuation.section",
-		  "meta.function-call.c",
-		  "meta.block.c",
-		  "meta.function.c",
-		  "variable",
-		  "variable.name",
-		  "source",
-		  "text"
-		],
-		"settings": {
-		  "foreground": "#dae3e3"
-		}
-	  },
-	  {
-		"name": "function preprocessor",
-		"scope": [
-		  "entity.name.function.preprocessor.c",
-		  "meta.preprocessor.macro.c"
-		],
-		"settings": {
-		  "foreground": "#569CD6"
-		}
-	  },
-	  {
-		"name": "constants",
-		"scope": [
-		  "string.quoted.double",
-		  "string.quoted.other.lt-gt",
-		  "constant"
-		],
-		"settings": {
-		  "foreground": "#7fcbcd"
-		}
-	  },
-	  {
-		"name": "meta keywords",
-		"scope": [
-		  "keyword.control",
-		  "meta.preprocessor.c",
-		  "meta.attribute",
-		  "meta.tag"
-		],
-		"settings": {
-		  "foreground": "#C586C0"
-		}
-	  },
-	  {
-		"name": "numeric preprocessor",
-		"scope": [
-		  "meta.preprocessor.macro.c",
-		  "constant.numeric.preprocessor.c",
-		  "meta.preprocessor.c"
-		],
-		"settings": {
-		  "foreground": "#434f54"
-		}
-	  }
-	]
-  }
+    "name": "Arduino dark",
+    "type": "dark",
+    "colors": {
+		// Base
+        "focusBorder": "#dae3e3",
+        "foreground": "#dae3e3",
+        "errorForeground": "#df7365",
+        "titleBar.activeBackground": "#171e21",
+        "titleBar.activeForeground": "#dae3e3",
+		// Text Colours
+        "textLink.foreground": "#0ca1a6",
+		// Buttons
+        "button.background": "#0ca1a6",
+        "button.foreground": "#101618",
+        "button.hoverBackground": "#7fcbcd",
+		// Dropdown
+        "dropdown.border": "#7fcbcd",
+        "dropdown.background": "#2c353a",
+        "dropdown.foreground": "#dae3e3",
+		// Input
+        "input.background": "#000000",
+		// Progress Bar
+        "progressBar.background": "#005c5f",
+		// List and Trees
+        "list.highlightForeground": "#0ca1a6",
+        "list.activeSelectionForeground": "#dae3e3",
+        "list.activeSelectionBackground": "#0ca1a64d",
+        "list.inactiveSelectionForeground": "#dae3e3",
+        "list.inactiveSelectionBackground": "#434f54",
+        "list.hoverBackground": "#1f272a",
+        "list.activeSelectionIconForeground": "#0ca1a6",
+        "tree.indentGuidesStroke": "#374146",
+		// Activity Bar
+        "activityBar.background": "#171e21",
+        "activityBar.foreground": "#dae3e3",
+        "activityBar.inactiveForeground": "#4e5b61",
+        "activityBar.activeBorder": "#0ca1a6",
+		// Sidebar
+        "sideBar.background": "#101618",
+        "sideBar.foreground": "#dae3e3",
+		// Tabs
+        "tab.unfocusedActiveForeground": "#dae3e3",
+        "tab.inactiveBackground": "#171e21",
+        "editorGroupHeader.tabsBackground": "#171e21",
+		// Editor
+        "editor.background": "#1f272a",
+        "editor.foreground": "#dae3e3",
+        "editor.lineHighlightBackground": "#434f5410",
+        "editor.selectionBackground": "#00818480",
+        "editorCursor.foreground": "#dae3e3",
+        "editorWhitespace.foreground": "#bfbfbf",
+		// Editor Widget
+        "editorWidget.background": "#171e21",
+        "editorWidget.foreground": "#dae3e3",
+		// Panel
+		"panel.background": "#181E21",
+        "panel.border": "#181E21",
+		// Status Bar
+        "statusBar.background": "#171e21",
+		// Terminal
+        "terminal.background": "#000000",
+        "terminal.foreground": "#ffffff",
+		// Menu
+		"menu.selectionBackground": "#dae3e3",
+        "menu.selectionForeground": "#212121",
+        "menubar.selectionBackground": "#ffffff",
+        "menubar.selectionForeground": "#212121",
+		// Settings
+        "settings.headerForeground": "#dae3e3",
+    },
+    "tokenColors": [
+        {
+            "name": "",
+            "settings": {
+                "foreground": "#dae3e3"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#7f8c8d"
+            }
+        },
+        {
+            "name": "Keywords Attributes",
+            "scope": ["storage", "support", "string.quoted.single.c"],
+            "settings": {
+                "foreground": "#0ca1a6"
+            }
+        },
+        {
+            "name": "literal",
+            "scope": [
+                "meta.function.c",
+                "entity.name",
+                "entity.name.function",
+                "meta.function-call.c",
+                "variable.other"
+            ],
+            "settings": {
+                "foreground": "#F39C12"
+            }
+        },
+        {
+            "name": "punctuation",
+            "scope": [
+                "punctuation.section",
+                "meta.function-call.c",
+                "meta.block.c",
+                "meta.function.c",
+                "variable",
+                "variable.name",
+                "source",
+                "text"
+            ],
+            "settings": {
+                "foreground": "#dae3e3"
+            }
+        },
+        {
+            "name": "function preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor.c",
+                "meta.preprocessor.macro.c"
+            ],
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "name": "constants",
+            "scope": [
+                "string.quoted.double",
+                "string.quoted.other.lt-gt",
+                "constant"
+            ],
+            "settings": {
+                "foreground": "#7fcbcd"
+            }
+        },
+        {
+            "name": "meta keywords",
+            "scope": [
+                "keyword.control",
+                "meta.preprocessor.c",
+                "meta.attribute",
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "name": "numeric preprocessor",
+            "scope": [
+                "meta.preprocessor.macro.c",
+                "constant.numeric.preprocessor.c",
+                "meta.preprocessor.c"
+            ],
+            "settings": {
+                "foreground": "#434f54"
+            }
+        }
+    ]
+}

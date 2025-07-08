@@ -1,10 +1,10 @@
 {
-    "name": "Arduino default",
-    "type": "default",
+    "name": "Arduino light",
+    "type": "light",
     "colors": {
         // Base
-        "focusBorder": "#7fcbcd",
         "foreground": "#4e5b61",
+        "focusBorder": "#7fcbcd",
         "errorForeground": "#df7365",
         "titleBar.activeBackground": "#006d70",
         "titleBar.activeForeground": "#f7f9f9",
@@ -59,11 +59,12 @@
         // Status Bar
         "statusBar.background": "#006d70",
         // Terminal
-        "terminal.background": "#000000",
-        "terminal.foreground": "#ffffff",
+        "terminal.background": "#ffffff",
+        "terminal.foreground": "#000000",
         // Menu
         "menu.selectionBackground": "#dae3e3",
         "menu.selectionForeground": "#212121",
+        // Menubar
         "menubar.selectionBackground": "#ffffff",
         "menubar.selectionForeground": "#212121",
         // Settings

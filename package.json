@@ -12,7 +12,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OscarEwen/nerd-themes-for-vsc"
+    "url": "https://github.com/OscarEwen/arduino-themes-vsc"
   },
   "publisher": "OscarEwenStudent",
   "contributes": {
@@ -26,6 +26,11 @@
         "label": "Arduino Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.Arduino-color-theme.json"
+      },
+      {
+        "label": "Arduino Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.Arduino-color-theme.json"
       }
     ]
   }
