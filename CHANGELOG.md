@@ -37,3 +37,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed poor contrast between some elements and the background
 
 ## [0.1.1] - 2024-10-05
+
+### Added
+- True light mode which features a light terminal as opposed to the dark terminal which is true to the Arduino IDE.
+
+### Changed
+- Reformatted theme json files inline with visualstudo code api reference
